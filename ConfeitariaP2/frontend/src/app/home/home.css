@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:wght@400;500;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+/*Primeira Seção*/
+.banner-section {
+    height: 60vh; 
+    min-height: 400px;
+    width: 100%;
+    
+    background-image: url(/home11.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.conteudo-container {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+.conteudo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 5% 40px 8%;
+}
+
+.conteudo h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 38px;
+    line-height: 1.15;
+    color: #5b1a1a;
+    margin-bottom: 12px;
+}
+
+.conteudo .subtitulo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #deb52e;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+}
+
+.conteudo .sobre-nos {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #b86e4b;
+    font-weight: 400;
+}
+
+.imagem-lado {
+    flex: 1;
+}
+
+.imagem-lado img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 80%;
+}
+
+.btn-vitrine {
+    display: inline-block;
+    align-self: flex-start;
+    margin-top: 24px;
+    padding: 12px 28px;
+    background-color: #fac2cb;
+    color: #5b1a1a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-vitrine:hover {
+    background-color: #d992af;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(184, 110, 75, 0.25);
+}
+
+/*Layout Compartilhado de Inicio de Seção*/
+.section-subtitulo {
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: #e99299;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.section-titulo {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  color: #2b2b2b;
+  margin: 0 0 15px 0;
+}
+
+.section-descricao {
+  color: #666;
+  font-size: 0.95rem;
+  max-width: 600px;
+  margin: 0 auto 60px auto;
+}
+
+/*Segunda Seção*/
+.features-section {
+  background-color: #ffffff;
+  padding: 80px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.features-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.features-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 70px;
+}
+
+.features-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon-bolha {
+  width: 50px;
+  height: 50px;
+  background-color: #fcebeb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.feature-conteudo h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  color: #2b2b2b;
+  margin: 0 0 8px 0;
+}
+
+.feature-conteudo p {
+  font-size: 0.85rem;
+  color: #777;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.img-redonda {
+  flex: 1.2;
+  display: flex;
+  justify-content: center;
+}
+
+.img-centro {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 50px;
+}
+
+.stat-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.8rem;
+  color: #2b2b2b;
+  margin: 0 0 5px 0;
+  font-weight: 600;
+}
+
+.stat-card p {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  color: #888;
+  margin: 0;
+  font-weight: 600;
+}
+/*Terceira Seção*/
+.banner-desconto {
+  background-color: #fdf0f2;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.container-desconto {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tag-subtitulo {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #bf945f;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-shadow: 0 6px 16px rgba(184, 110, 75, 0.25);
+}
+
+.banner-desconto h2 {
+  font-size: 36px;
+  color: #2b2b2b;
+  margin: 15px 0;
+  font-family: "Playfair Display", serif;
+}
+
+.banner-desconto p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.botoes-grupo {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 28px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 0;
+  transition: all 0.3s ease;
+}
+
+.btn-primario {
+  background-color: #fac2cb;
+  color: #fff;
+}
+
+.btn-primario:hover {
+  background-color: #e593a0;
+  box-shadow: 0 6px 16px rgba(184, 110, 75, 0.25);
+}
+/*Quarta Seção*/
+.reviews-section {
+  background-color: #faf8f5;
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.reviews-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.review-card {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+}
+
+.quote-icon {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4rem;
+  line-height: 1;
+  color: #e8b4b8;
+  margin-bottom: -10px;
+}
+
+.review-text {
+  color: #555555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.autor-info {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 15px;
+}
+
+.autor-nome {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  color: #2b2b2b;
+  margin: 0;
+  font-weight: 700;
+}
+
+.autor-role {
+  font-size: 0.8rem;
+  color: #888888;
+  display: block;
+  margin-top: 2px;
+}
+
+/* ===== Responsivo - Celular ===== */
+@media (max-width: 720px) {
+
+  /* Primeira Seção */
+  .banner-section {
+    height: auto;
+    min-height: unset;
+  }
+
+  .conteudo-container {
+    flex-direction: column;
+  }
+
+  .conteudo {
+    padding: 32px 6%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .conteudo h1 {
+    font-size: 26px;
+  }
+
+  .btn-vitrine {
+    align-self: center;
+  }
+
+  .imagem-lado {
+    min-height: 220px;
+  }
+
+  /* Layout compartilhado */
+  .section-titulo {
+    font-size: 1.8rem;
+  }
+
+  .section-descricao {
+    margin-bottom: 40px;
+  }
+
+  /* Segunda Seção */
+  .features-layout {
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 40px;
+  }
+
+  .features-col {
+    gap: 30px;
+    width: 100%;
+  }
+
+  .img-redonda {
+    order: -1;
+  }
+
+  .img-centro {
+    width: 220px;
+    height: 220px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .stat-card h3 {
+    font-size: 2rem;
+  }
+
+  /* Terceira Seção */
+  .banner-desconto h2 {
+    font-size: 26px;
+  }
+
+  .botoes-grupo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 260px;
+    text-align: center;
+  }
+
+  /* Quarta Seção */
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-card {
+    padding: 30px 20px;
+  }
+}
